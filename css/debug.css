@@ -1,0 +1,54 @@
+@import url("stylesheet.css");
+/* Import all styles from this file */
+/* add debug-information to some central elements
+-------------------------------------------------------- 
+
+*/
+html {
+    background: lime;
+}
+body {
+    background: beige;
+}
+
+header#above {
+    background: blueviolet;
+}
+
+header#top {
+    border: 2px dashed aquamarine;
+}
+
+.navmenu {
+    border: 4px dotted red;
+}
+
+div#content {
+    background: darksalmon;
+}
+
+article {
+    background: antiquewhite;
+}
+
+figure {
+    background: firebrick;
+}
+
+footer.signature {
+    background: moccasin;
+}
+.signature figure {
+    border: 1px solid red;
+}
+.signature p {
+    border: 1px solid green;
+}
+
+div#footer {
+    border: 1px solid lawngreen;
+}
+
+footer#bottom {
+    border: 1px solid lightgreen;
+}
