@@ -34,6 +34,19 @@ body {
 /* header --------------------------------------------------------
  */
 
+#above {
+    padding-left: 1em;
+}
+
+#above a {
+    text-decoration: none;
+    color: gray;
+}
+
+#above a:hover {
+    color: rgba(40, 170, 226, 1);
+}
+
 #top div {
     float: left;
 }
@@ -154,7 +167,7 @@ p {
     font-size: 1.1em;
     margin: 0px;
     padding: .5em 0;
-    line-height: 1.4em;
+    line-height: 1.4;
 }
 
 #portrait {
@@ -173,17 +186,33 @@ figcaption {
     text-align: center;
 }
 
-#me#content {
-    margin: 0 0 0 1em;
+#me #content {
+    margin: 0 auto;
     width: 90%;
 }
 
-#report#content {
+#report #content {
     margin: 0 auto;
     width: 70%;
 }
-/* Footer --------------------------------------------------------
+
+#source #content {
+    margin: 0 auto;
+    width: 95%;
+}
+/* Footers --------------------------------------------------------
 */
+
+.timeline {
+    font: italic 0.8em Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: gray;
+    border-top: 2px dotted gray;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    overflow: auto;
+}
 
 .signature {
     font: italic 0.8em Arial, Helvetica, sans-serif;
@@ -226,29 +255,32 @@ footer {
 
 footer#bottom a,
 footer#bottom p,
-#back a {
+.back a {
     font: 0.9em Arial, Helvetica, sans-serif;
     text-decoration: none;
-    margin: .3em;
+}
+
+.back {
+    margin: 0 0 2em 0;
 }
 
 footer#bottom a,
-#back a {
+.back a {
     color: #999999;
     font-style: italic;
 }
 
 footer#bottom a:link,
-#back a:link {}
+.back a:link {}
 
 div#bottom a:visited,
-#back a:visited {}
+.back a:visited {}
 
 footer#bottom a:hover,
-#back a:hover {
+.back a:hover {
     text-decoration: underline;
     color: #333333;
 }
 
 footer#bottom a:active,
-#back a:active {}
+.back a:active {}

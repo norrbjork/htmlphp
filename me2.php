@@ -19,8 +19,8 @@ figure#portrait img {
 border: 1px solid black;
 }
 figure#portrait figcaption {
-    font-family: "Cookie";
-    font-size: 1.5em;
+    font-family: "Indie Flower";
+    font-size: 1.2em;
     padding: .3em 0;
 }
 ';
@@ -36,7 +36,7 @@ figure#portrait figcaption {
         <figure id="portrait">
             <img src="img/sn.jpg" alt="A photo of Sylvester Norrbjörk">
             <figcaption>
-                Looking thoughtful...
+                &hellip;or looking thoughtful.
             </figcaption>
         </figure>
         <div id="content">

@@ -1,17 +1,18 @@
-<?php include( "incl/config.php"); $title="Me, Myself and I" ; $pageId="me" ; $pageStyle=null; ?>
+<?php include( "incl/config.php");
+$title="Me, Myself and I";
+$pageId="me";
+$pageStyle=null;
+?>
 
 <?php include( "incl/header.php"); ?>
 
 <!-- Sidans/Dokumentets huvudsakliga innehåll -->
-
-<body id="me">
-
     <div id="container">
         <h1>Me, Myself and I</h1>
         <figure id="portrait">
             <img src="img/sn.jpg" alt="A photo of Sylvester Norrbjörk">
             <figcaption>
-                Brooding...
+                Brooding&hellip;
             </figcaption>
         </figure>
         <div id="content">
@@ -26,9 +27,6 @@
                 Allt som allt är det lite blandat, men mitt nuvarande fokus och intresse är webbprogrammering med lite Java på sidan.
             </p>
         </div>
-        <div id="content"></div>
     </div>
-
-</body>
 <?php include( "incl/signature.php"); ?>
 <?php include( "incl/footer.php"); ?>
